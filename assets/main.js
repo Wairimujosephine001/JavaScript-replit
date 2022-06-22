@@ -4,6 +4,6 @@ const welcome = () => {
     generatedElement.innerHTML = `<p>Hello ${inputValue}, Welcome to the bootcamp</p>`
     document.body.appendChild(generatedElement);
     if(inputValue === '' || inputValue == null){
-    generatedElement.innerHTML = `<p>Please enter your name!</p>`
+    generatedElement.innerHTML = `<p>Please enter your name!.</p>`
   }
   }
